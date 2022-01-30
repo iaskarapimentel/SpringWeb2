@@ -1,0 +1,62 @@
+<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-spring4-4.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>New Employee Form</title>
+</head>
+<body>
+<div class="container mt-4">
+    <div class="row">
+        <h1>New Employee Form</h1>
+    </div>
+
+<!--    <div class="container">-->
+<!--        <div class="row">-->
+<!--            <form action="/employees" method="POST">-->
+<!--                <div class="mb-3">-->
+<!--                    <label class="form-label">Id</label>-->
+<!--                    <input class="form-control" type="text" name="id">-->
+<!--                    <div></div>-->
+<!--                </div>-->
+<!--                <div class="mb-3">-->
+<!--                    <label class="form-label">First Name</label>-->
+<!--                    <input class="form-control" type="text" name="firstName">-->
+<!--                    <div></div>-->
+<!--                </div>-->
+<!--                <div class="mb-3">-->
+<!--                    <label class="form-label">Last tName</label>-->
+<!--                    <input class="form-control" type="text" name="lastName">-->
+<!--                    <div></div>-->
+<!--                </div>-->
+<!--                <div class="mb-3">-->
+<!--                    <label class="form-label">Age</label>-->
+<!--                    <input class="form-control" type="text" name="age">-->
+<!--                    <div></div>-->
+<!--                </div>-->
+<!--                <div class="mb-3">-->
+<!--                    <label class="form-label">Position</label>-->
+<!--                    <input class="form-control" type="text" name="position">-->
+<!--                    <div></div>-->
+<!--                </div>-->
+<!--                <div class="mb-3">-->
+<!--                    <label class="form-label">Email</label>-->
+<!--                    <input class="form-control" type="text" name="email">-->
+<!--                    <div></div>-->
+<!--                </div>-->
+
+<!--                <button class="btn btn-primary" type="submit">Submit</button>-->
+<!--                <a href="javascript:history.back()">Back</a>-->
+<!--            </form>-->
+<!--        </div>-->
+<!--    </div>-->
+</div>
+</body>
+</html>
